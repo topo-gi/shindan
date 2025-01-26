@@ -89,21 +89,21 @@ function MainComponent() {
     if (finalAnswers[1] === "嫌いだしうるさいし臭いし邪魔") {
       compatibility += 10;
     } else if (finalAnswers[1] === "好きではない") {
-      compatibility += 5;
+      compatibility += 10;
     } else if (finalAnswers[1] === "好きだけど今は乗っていない") {
       compatibility -= 5;
     } else if (finalAnswers[1] === "好きだし乗っている") {
-      compatibility -= 10;
+      compatibility -= 5;
     }
 
     if (finalAnswers[2] === "草むらに避難させる") {
       compatibility += 10;
     } else if (finalAnswers[2] === "少し眺める") {
-      compatibility += 5;
+      compatibility += 10;
     } else if (finalAnswers[2] === "避けて通る") {
       compatibility -= 5;
     } else if (finalAnswers[2] === "潰す") {
-      compatibility -= 10;
+      compatibility -= 5;
     }
 
     if (finalAnswers[3] === "ハウス・テクノ・トランス・エレクトロニック") {
